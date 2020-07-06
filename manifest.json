@@ -1,0 +1,42 @@
+{
+   "format_version" : 2,
+   "header" : {
+      "description" : "An all-in-one optimization §9client-resourcepack §ffor §dMCBE.",
+      "name" : "§dAstral §fVersion §95.1",
+      "uuid" : "36579f79-35cd-469d-909e-d55ef97d78c1",
+      "version" : [ 5, 1, 0 ],
+      "min_engine_version" : [ 1, 14, 0 ]
+   },
+   "modules" : [
+      {
+         "description" : "Astral Client V5",
+         "type" : "resources",
+         "uuid" : "8f4667d0-0ca6-4b27-a674-97c8ff96e169",
+         "version" : [ 5, 1, 0 ]
+      }
+   ],
+   
+   "subpacks": [
+      {
+         "folder_name": "bottomchat",
+         "name": "Bottom Chat UI",
+         "memory_tier": 1
+      },
+      {
+         "folder_name": "astral",
+         "name": "Enable Astral GUI Textures (Dark Mode + Clear UI)",
+         "memory_tier": 1
+      },
+      {
+         "folder_name": "astralbt",
+         "name": "Enable Astral GUI Textures (Dark Mode + Clear UI) + BottomChat",
+         "memory_tier": 1
+      },
+      {
+         "folder_name": "Nothing",
+         "name": "Default (Use this for better compatibility with your resource packs.)",
+         "memory_tier": 1
+      }
+    
+   ]
+}
